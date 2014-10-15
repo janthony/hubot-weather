@@ -13,6 +13,7 @@ Run ```npm install``` command and you are ready to go!
 
 #Example
 
+
 ```
 hubot weather in Riga
 ```
@@ -28,3 +29,9 @@ Type: 1
 
 Last updated: Mon Sep 29 2014 08:50:00 GMT+0300 (EEST)
 ```
+
+Or trigger it from robot
+
+```
+robot.emit "weather", msg, { city: "Melbourne" }
+``` 
